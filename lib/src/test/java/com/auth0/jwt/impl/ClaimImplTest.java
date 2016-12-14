@@ -15,8 +15,8 @@ import org.junit.rules.ExpectedException;
 import java.util.Arrays;
 import java.util.Date;
 
-import static com.auth0.jwt.impl.JsonNodeClaim.claimFromNode;
 import static com.auth0.jwt.impl.JWTParser.getDefaultObjectMapper;
+import static com.auth0.jwt.impl.JsonNodeClaim.claimFromNode;
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.hamcrest.core.IsNull.nullValue;
